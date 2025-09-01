@@ -1,0 +1,74 @@
+
+🎆 Hit Landing Effects 🎆   
+
+🎇 Mod allows to play custom animations and sounds for post-shot bursts, where it looks appropriate (fireballs, lighning bolts and other magical projectiles).  
+🎇 All settings are configurable in one script and are tied to creature type, not projectile type. The customization is pretty flexible, one can make both strict pairs and universal rules alike. Siege towers are affected by same settings as the creatures inside.  
+🎇 Melee attacks are also supported, but due to technical limitations are played at the start of attacker's swing, not at defender's hit like shots. Hence all the melee defs should have some amount of 'empty' frames at the beginning, allowing to artificially delay the burst triggering. Also keep in mind that game plays spell defs mirrored to what they appear in .pac, so don't forget to mirror your animations for melee bursts from right to left before adding (see the defs included in the mod for reference).  
+🎇 Mod includes a resource folder with 125 burst defs which use same colors and can be mixed and matched before recoloring to fit your creatures. You can reverse the frame order for more interesting results as well, also don't forget to end your every burst def with an empty frame. The sounds in .snd are nothing new (except few HotA ones), it's just a selection of vanilla sounds that could potentially fit for a burst. They are there as a library so you have easier time creating your own hit effects.
+
+ ⚠️  W A R N I N G  ⚠️     
+If you are using Amethyst in your mod, or have enabled some other mod based on it (Knightmare Kingdoms, TUM and all its variations, Alternative Upgrade etc), then you shouldn't use Melee Resistance/Shooting Resistance fields in AmeEdit, since it will prevent this plugin from playing its bursts. Instead you should set the damage resistances at the bottom part of same script where main bursts are customized. This will also fix Amethyst battle tooltip to display correct theoretical damage. So do a folder search for "resitance=" in Creatures folder and manually correct each case.
+
+🌟 Included Creatures:
+🔅 Monk (melee and ranged bursts)  
+🔅 Zealot (melee and ranged bursts)  
+🔅 Angel (melee burst)  
+🔅 Archangel (melee burst)  
+🔅 Supreme Archangel (melee burst)  
+🔅 Unicorn (melee burst)  
+🔅 War Unicorn (melee burst)  
+🔅 Mage (ranged burst)  
+🔅 Arch Mage (ranged burst)   
+🔅 Genie (melee burst)  
+🔅 Master Genie (melee burst)  
+🔅 Giant (melee burst)  
+🔅 Titan (melee and ranged bursts)  
+🔅 Lord of Thunder (melee and ranged bursts)  
+🔅 Gog (ranged burst)  
+🔅 Efreeti (melee burst)  
+🔅 Efreet Sultan (melee burst)  
+🔅 Arch Devil (melee burst)  
+🔅 Hell Baron (melee burst)  
+🔅 Wight (melee burst)  
+🔅 Wraith (melee burst)  
+🔅 Lich (ranged burst, for towers only since Death Cloud will prevent it from playing, same reason Magog was skipped)  
+🔅 Ghost Dragon (melee burst)  
+🔅 Beholder (melee and ranged bursts)  
+🔅 Evil Eye (melee and ranged bursts)  
+🔅 Thunderbird (melee burst)  
+🔅 Cyclops (ranged burst)  
+🔅 Cyclops King (ranged burst)  
+🔅 Ghost Behemoth (melee burst)  
+🔅 Dragon Fly (melee burst)  
+🔅 Gorgon (melee burst)  
+🔅 Mighty Gorgon (melee burst)  
+🔅 Pixie (melee burst)  
+🔅 Sprite (melee burst)  
+🔅 Air Elemental (melee burst)  
+🔅 Storm Elemental (melee and ranged bursts)  
+🔅 Ice Elemental (ranged burst)  
+🔅 Fire Elemental (melee burst)  
+🔅 Energy Elemental (melee burst)  
+🔅 Crystal Dragon (melee burst)  
+🔅 Enchanter (ranged burst)  
+🔅 Ghost (melee burst)  
+🔅 War Zealot (melee and ranged bursts)  
+🔅 Arctic Sharpshooter (ranged burst)  
+🔅 Lava Sharpshooter (ranged burst)  
+🔅 Santa Gremlin (melee burst)  
+🔅 Sorceress (melee and ranged bursts) 
+🔅 Werewolf (melee burst)   
+🔅 Hierophant (melee and ranged bursts)  
+🔅 Succubus (melee and ranged bursts)  
+🔅 Soul Eater (ranged burst)  
+🔅 Brute (ranged burst)  
+🔅 Shaman (ranged burst)  
+🔅 Astral Spirit (melee and ranged bursts)  
+
+💥 Authors:
+JackSlater, Raistlin - the main plugin  
+Dalion - graphics and sounds selection  
+Archer30 - script workaround to bypass incompatibility with damage resistance fields of Amethyst  
+(but the manual adjustment of every config where they were set is still required)  
+
+Inspired by similar functionality from HotA.  

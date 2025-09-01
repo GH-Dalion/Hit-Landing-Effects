@@ -1,0 +1,35 @@
+{
+	"caption": {
+		"en_US": "Hit Landing Effects",
+		"ru_RU": "Эффекты После Стрельбы",
+		"ua_UA": ""
+	},
+	"description": {
+		"full": {
+			"en_US": "description.txt",
+			"ru_RU": "description_rus.txt",
+			"ua_UA": ""
+		},
+		"short": {
+			"en_US": "",
+			"ru_RU": "",
+			"ua_UA": ""
+		}
+	},
+	"author": "JackSlater, Raistlin, Dalion, Archer30",
+	"homepage": "https://www.h3wog.com/thread-78731-1-1.html",
+	"icon": {
+		"file": "hit effects.ico",
+		"index": 0
+	},
+	"mod_version": "1.0",
+	"priority": 1,
+	"compatibility": {
+		"class": "default",
+		"entries": {}
+	},
+	"platform": "era",
+	"info_version": "1.0",
+	"plugins": {},
+	"category": "graphics"
+}
