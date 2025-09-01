@@ -1,7 +1,7 @@
 {
 	"caption": {
 		"en_US": "Hit Landing Effects",
-		"ru_RU": "Эффекты После Стрельбы",
+		"ru_RU": "Послеударные Эффекты",
 		"ua_UA": ""
 	},
 	"description": {
@@ -17,7 +17,7 @@
 		}
 	},
 	"author": "JackSlater, Raistlin, Dalion, Archer30",
-	"homepage": "https://www.h3wog.com/thread-78731-1-1.html",
+	"homepage": "http://wforum.heroes35.net/showthread.php?tid=7213",
 	"icon": {
 		"file": "hit effects.ico",
 		"index": 0
