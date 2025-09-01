@@ -29,7 +29,7 @@ If you are using Amethyst in your mod, or have enabled some other mod based on i
 🔅 __Gog__ *(ranged burst)*  
 🔅 __Efreeti__ *(melee burst)*  
 🔅 __Efreet Sultan__ *(melee burst)*  
-🔅 __Archdevil__ *(melee burst)*  
+🔅 __Arch Devil__ *(melee burst)*  
 🔅 __Hell Baron__ *(melee burst)*  
 🔅 __Wight__ *(melee burst)*  
 🔅 __Wraith__ *(melee burst)*   
