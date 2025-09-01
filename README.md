@@ -1,9 +1,12 @@
 # 🎆 Hit Landing Effects 🎆   
 
 🎇 Mod allows to play custom animations and sounds for post-shot bursts, where it looks appropriate (fireballs, lighning bolts and other magical projectiles).  
+
 🎇 All settings are configurable in one script and are tied to creature type, not projectile type. The customization is pretty flexible, one can make both strict pairs and universal rules alike. Siege towers are affected by same settings as the creatures inside.  
+
 🎇 Melee attacks are also supported, but due to technical limitations are played at the start of attacker's swing, not at defender's hit like shots. Hence all the melee defs should have some amount of 'empty' frames at the beginning, allowing to artificially delay the burst triggering. Also keep in mind that game plays spell defs mirrored to what they appear in .pac, so don't forget to mirror your animations for melee bursts from right to left before adding (see the defs included in the mod for reference).  
-🎇 Mod includes a resource folder with 125 burst defs which use same colors and can be mixed and matched before recoloring to fit your creatures. You can reverse the frame order for more interesting results as well, also don't forget to end your every burst def with an empty frame. The sounds in .snd are nothing new (except few HotA ones), it's just a selection of vanilla sounds that could potentially fit for a burst. They are there as a library so you have easier time creating your own hit effects.
+
+🎇 Mod includes a resource folder with 125 burst defs which use same colors and can be mixed and matched before recoloring to fit your creatures. You can reverse the frame order for more interesting results as well, also don't forget to end your every burst def with an empty frame. The sounds in .snd are nothing new (except few HotA ones), it's just a selection of vanilla sounds that could potentially fit for a burst. They are there as a library so you have easier time creating your own hit effects.  
 
 ## ⚠️  W A R N I N G  ⚠️     
 If you are using Amethyst in your mod, or have enabled some other mod based on it (Knightmare Kingdoms, TUM and all its variations, Alternative Upgrade etc), then you shouldn't use Melee Resistance/Shooting Resistance fields in AmeEdit, since it will prevent this plugin from playing its bursts. Instead you should set the damage resistances at the bottom part of same script where main bursts are customized. This will also fix Amethyst battle tooltip to display correct theoretical damage. So do a folder search for "resitance=" in Creatures folder and manually correct each case.
@@ -55,8 +58,8 @@ If you are using Amethyst in your mod, or have enabled some other mod based on i
 🔅 __Arctic Sharpshooter__ *(ranged burst)*  
 🔅 __Lava Sharpshooter__ *(ranged burst)*  
 🔅 __Santa Gremlin__ *(melee burst)*  
-🔅 __Sorceress__ *(melee and ranged bursts)* 
-🔅 __Werewolf__ *(melee burst)*   
+🔅 __Sorceress__ *(melee and ranged bursts)*  
+🔅 __Werewolf__ *(melee burst)*  
 🔅 __Hierophant__ *(melee and ranged bursts)*  
 🔅 __Succubus__ *(melee and ranged bursts)*  
 🔅 __Soul Eater__ *(ranged burst)*  
