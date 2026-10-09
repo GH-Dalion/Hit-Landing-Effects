@@ -26,13 +26,15 @@
 ✶ __Titan__ *(melee and ranged bursts)*  
 ✶ __Lord of Thunder__ *(melee and ranged bursts)*  
 ✶ __Gog__ *(ranged burst)*  
+✶ __Hell Hound__ *(melee burst)*  
+✶ __Cerberus__ *(melee burst on all affected targets)*  
 ✶ __Efreeti__ *(melee burst)*  
 ✶ __Efreet Sultan__ *(melee burst)*  
 ✶ __Arch Devil__ *(melee burst)*  
 ✶ __Hell Baron__ *(melee burst)*  
 ✶ __Wight__ *(melee burst)*  
 ✶ __Wraith__ *(melee burst)*   
-✶ __Lich__ *(ranged burst, for towers only since Death Cloud will prevent it from playing, same reason Magog was skipped)*  
+✶ __Lich__ *(ranged burst for Necropolis towers)*  
 ✶ __Ghost Dragon__ *(melee burst)*  
 ✶ __Beholder__ *(melee and ranged bursts)*  
 ✶ __Evil Eye__ *(melee and ranged bursts)*  
@@ -49,9 +51,12 @@
 ✶ __Storm Elemental__ *(melee and ranged bursts)*  
 ✶ __Ice Elemental__ *(ranged burst)*  
 ✶ __Fire Elemental__ *(melee burst)*  
-✶ __Energy Elemental__ *(melee burst)*  
+✶ __Energy Elemental__ *(melee burst)* 
+✶ __Psychic Elemental__ *(melee burst on all affected targets)*  
+✶ __Magic Elemental__ *(melee burst on all affected targets)*  
 ✶ __Crystal Dragon__ *(melee burst)*  
 ✶ __Enchanter__ *(ranged burst)*  
+✶ __Mummy__ *(melee burst)*  
 ✶ __Ghost__ *(melee burst)*  
 ✶ __War Zealot__ *(melee and ranged bursts)*  
 ✶ __Arctic Sharpshooter__ *(ranged burst)*  
