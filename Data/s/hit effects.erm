@@ -31,6 +31,9 @@ ZVSE2
 !#SN:W^HitEffects.Shot.%(MON_LORD_OF_THUNDER)^/^Burst11.def^;
 !#SN:W^HitEffects.Shot.%(MON_GOG)^/^Burst12.def^;                       Gog
 !#SN:W^HitEffects.ShotSound.%(MON_GOG)^/^PHOEKILL.wav^;
+!#SN:W^HitEffects.ShotSound.%(MON_MAGOG)^/^PHOEKILL.wav^;
+!#VRs^HitEffects.Melee.%(MON_HELL_HOUND)^:S^Burst54.def^;               Hell Hound
+!#VRs^HitEffects.Melee.%(MON_CERBERUS)^:S^Burst54.def^;                 Cerberus
 !#VRs^HitEffects.Melee.%(MON_EFREETI)^:S^Burst13.def^;                  Efreeti
 !#VRs^HitEffects.Melee.%(MON_EFREET_SULTAN)^:S^Burst13.def^;            Efreet Sultan
 !#VRs^HitEffects.Melee.%(MON_ARCH_DEVIL)^:S^Burst14.def^;               Arch Devil
@@ -39,9 +42,9 @@ ZVSE2
 !#VRs^HitEffects.MeleeSound.%(MON_HELL_BARON)^:S^FAERATTK.wav^;
 !#VRs^HitEffects.Melee.%(MON_WIGHT)^:S^Burst15.def^;                    Wight
 !#VRs^HitEffects.Melee.%(MON_WRAITH)^:S^Burst15.def^;                   Wraith
-!#VRs^HitEffects.Melee.%(MON_GHOST_DRAGON)^:S^Burst16.def^;             Ghost Dragon
 !#SN:W^HitEffects.Shot.%(MON_LICH)^/^Burst17.def^;                      Lich
 !#SN:W^HitEffects.ShotSound.%(MON_LICH)^/^DEATHCLS.wav^;
+!#VRs^HitEffects.Melee.%(MON_GHOST_DRAGON)^:S^Burst16.def^;             Ghost Dragon
 !#VRs^HitEffects.Melee.%(MON_BEHOLDER)^:S^Burst18.def^;                 Beholder
 !#SN:W^HitEffects.Shot.%(MON_BEHOLDER)^/^Burst19.def^;
 !#SN:W^HitEffects.Shot.%(MON_EVIL_EYE)^/^Burst20.def^;                  Evil Eye
@@ -66,9 +69,13 @@ ZVSE2
 !#SN:W^HitEffects.ShotSound.%(MON_ICE_ELEMENTAL)^/^BMTHKILL.wav^;
 !#VRs^HitEffects.Melee.%(MON_FIRE_ELEMENTAL)^:S^Burst33.def^;           Fire Elemental
 !#VRs^HitEffects.Melee.%(MON_ENERGY_ELEMENTAL)^:S^Burst34.def^;         Energy Elemental
+!#VRs^HitEffects.Melee.%(MON_PSYCHIC_ELEMENTAL)^:S^Burst55.def^;        Psychic Elemental
+!#VRs^HitEffects.Melee.%(MON_MAGIC_ELEMENTAL)^:S^Burst56.def^;          Magic Elemental
 !#VRs^HitEffects.Melee.%(MON_CRYSTAL_DRAGON)^:S^Burst35.def^;           Crystal Dragon
 !#SN:W^HitEffects.Shot.%(MON_ENCHANTER)^/^C20SPX.def^;                  Enchanter
 !#SN:W^HitEffects.ShotSound.%(MON_ENCHANTER)^/^MAGICBLT.wav^;
+!#VRs^HitEffects.Melee.%(MON_MUMMY)^:S^Burst53.def^;                    Mummy
+!#VRs^HitEffects.MeleeSound.%(MON_MUMMY)^:S^CHYDDFND.wav^;
 !#VRs^HitEffects.Melee.%(MON_GHOST)^:S^Burst36.def^;                    Ghost
 !#SN:W^HitEffects.Shot.%(MON_WAR_ZEALOT)^/^Burst37.def^;                War Zealot
 !#SN:W^HitEffects.ShotSound.%(MON_WAR_ZEALOT)^/^FIREBALL.wav^;
@@ -135,6 +142,8 @@ ZVSE2
 !#VA(mon:x) (dmgReduction:x);
 
 !!VR(dmgReduction):S0; examples (uncomment to take effect)
+!!VR(dmgReduction)&(mon)=337:S30;
+!!VR(dmgReduction)&(mon)=338:S60;
 ;!VR(dmgReduction)&(mon)=(MON_DIAMOND_GOLEM):S-35; [35% ranged damage vulnerability]
 ;!VR(dmgReduction)&(mon)=(MON_GOLD_GOLEM):S70; [70% ranged damage resistance]
 
